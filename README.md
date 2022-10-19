@@ -32,7 +32,7 @@ The data analysis for this project was dividied into:
 
 Decision Forest:
 
-<img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Two-Class%20Decision%20Forest%20Results.JPG" alt="drawing" width="1000"/>
+<img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Two-Class%20Decision%20Forest%20Results.JPG" alt="drawing" width="600"/>
 
 Decision Jungle:
 
