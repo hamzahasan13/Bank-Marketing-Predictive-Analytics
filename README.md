@@ -58,4 +58,4 @@ Support Vector Machine:
 <img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Predictive%20Analytics%20result.JPG" alt="drawing" width="600"/>
 
 ### 7) Conclusion/Discussion
-The test data was added to the Decision Jungle ML algorithm and it returned a probability of around 72%. This indicates that there is a 72% chance that the customer will subscribe to the term data.
+This ML model can be used by the bank to predict if the customer will subscribe to a term deposit. One row from the test data was added to the Decision Jungle ML algorithm and it returned a probability of around 72%. This indicates that there is a 72% chance that the customer will subscribe to the term data. Using this model the bank's marketing team can target such customers to with marketing campaigns to attract them for term deposit.
