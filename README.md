@@ -1,59 +1,60 @@
 # Bank-Marketing-Predictive-Analytics
 Using Machine Learning to predict whether the customer will subscribe to a term deposit.
 
-
-# Airline-Passanger-Satisfaction-Analysis
-
 ## Table of Contents
 1) Tools used
 2) Overview
-3) Goal
-4) Technical Aspect
-5) Data Flow
-6) Exploratory Data Analysis results
-7) Evaluation of Machine Learning models
+3) Technical Aspect
+4) Model
+5) Machine Learning results
+6) Predictive Analytics
 
 ### 1. Tools used
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/Python-logo.png" alt="drawing" width="200"/>
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/jupyter_nb.png" alt="drawing" width="400"/>
+<img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Microsoft-Azure-Machine-Learning-Studio.jpg" width="400"/>
 
 ### 2. Overview
-This project contains Exploratory Data Analysis (EDA) and evaluation metrics for different Machine Learning models in python.
-### 3. Goal
-The goal for this project was to use data preprocessing and exploratory data analysis to find reasons for customer dissatisfaction. By analyzing the dataset and using different machine learning techniques to model passenger satisfaction. Recommendations were drawn from the insights generated through EDA which helped with improving customers satisfaction for the airline.
+Using Microsoft Azure Machine Learning Studio to determine if a customer will subscribe to a term deposit at the bank.
 
-### 4. Technical Aspect
+### 3. Technical Aspect
 The data analysis for this project was dividied into:
 * Data cleaning
 * Data wrangling
-* Exploratory Data Analysis
+* Splitting data
 * Machine Learning
-* Report writing/Presentation
+* Predictive Analytics
 
-### 5. Data Flow
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/FlowChart.JPG" alt="drawing" width="500"/>
+### 4. Model
+#### Data flow
 
-### 6. Exploratory Data Analysis results
+<img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Model.JPG" width="600"/>
 
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/heatmap.JPG" alt="drawing" width="600"/>
+### 5. Machine Learning results
 
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/satisfaction_dissatisfaction.JPG" alt="drawing" width="600"/>
+Decision Forest:
 
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/age_split.JPG" alt="drawing" width="600"/>
+<img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Two-Class%20Decision%20Forest%20Results.JPG" alt="drawing" width="600"/>
 
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/wifi_service_survey_results.JPG" width="600"/>
+Decision Jungle:
 
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/online_booking_survey_results.JPG" width="600"/>
+<img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Two-Class%20Decision%20Jungle.JPG" alt="drawing" width="600"/>
 
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/online_boarding_survey_results.JPG" width="600"/>
+Logistic Regression:
 
-### 7. Evaluation of Machine Learning Models
+<img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Two-Class%20Logistic%20Regression%20Result.JPG" width="600"/>
 
-### * Random Forest result
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/RF_results.JPG" width="600"/>
+Neural Netwrok:
 
-### * K Nearest Neighbors result
-<img src="https://github.com/hamzahasan13/Airline-Passenger-Dissatisfaction-Analysis/blob/main/Images/KNN_result.JPG" width="600"/>
+<img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Two-Class%20Neural%20Network.JPG" width="600"/>
 
-#### Conclusion
-Random Forest algorithm had the highest accuracy (0.94) compared to KNN's (0.83).
+Support Vector Machine:
+
+<img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Two-Class%20Support%20Vector%20Machine.JPG" width="600"/>
+
+## Decision Jungle had the highest accuracy compared to all other models.
+
+### 6. Predictive Analytics
+
+<img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Predictive%20Analytics%20result.JPG" alt="drawing" width="600"/>
+
+Conclusion:
+The test data was added to the Decision Jungle ML model and it returned a probability of around 72%. This indicates that there is a 72% chance that the customer will subscribe to the term data.
