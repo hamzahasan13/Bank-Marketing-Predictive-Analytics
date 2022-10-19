@@ -57,4 +57,4 @@ Support Vector Machine:
 <img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Predictive%20Analytics%20result.JPG" alt="drawing" width="600"/>
 
 Conclusion:
-The test data was added to the Decision Jungle ML model and it returned a probability of around 72%. This indicates that there is a 72% chance that the customer will subscribe to the term data.
+The test data was added to the Decision Jungle ML algorithm and it returned a probability of around 72%. This indicates that there is a 72% chance that the customer will subscribe to the term data.
