@@ -8,6 +8,7 @@ Using Machine Learning to predict whether the customer will subscribe to a term 
 4) Model
 5) Machine Learning results
 6) Predictive Analytics
+7) Conclusion/Discussion
 
 ### 1. Tools used
 <img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Microsoft-Azure-Machine-Learning-Studio.jpg" width="400"/>
@@ -56,5 +57,5 @@ Support Vector Machine:
 
 <img src="https://github.com/hamzahasan13/Bank-Marketing-Predictive-Analytics/blob/main/Images/Predictive%20Analytics%20result.JPG" alt="drawing" width="600"/>
 
-Conclusion:
+### 7) Conclusion/Discussion
 The test data was added to the Decision Jungle ML algorithm and it returned a probability of around 72%. This indicates that there is a 72% chance that the customer will subscribe to the term data.
